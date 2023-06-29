@@ -33,3 +33,5 @@
 - git restore projeto/index.html: esse comando restaura a modificação realizada no arquivo index.html dentro da pasta projeto, fazendo com que ela volte para a ultima versão sem alteração.
 
 - git restore .: restaura todos os arquivos
+
+- git restore --staged .: volta todos os arquivos alterados após fazer um git add(posição unstage) para a posição anterior(working directory)
