@@ -35,3 +35,5 @@
 - git restore .: restaura todos os arquivos
 
 - git restore --staged .: volta todos os arquivos alterados após fazer um git add(posição unstage) para a posição anterior(working directory)
+
+- git commit --amend -m "change title page index.html": para alterar o que foi escrito no ultimo commit, o que está entre aspas é o que será escrito após executar esse comando
