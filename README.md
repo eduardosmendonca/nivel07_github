@@ -39,3 +39,13 @@
 - git commit --amend -m "change title page index.html": para alterar o que foi escrito no ultimo commit, o que está entre aspas é o que será escrito após executar esse comando
 
 - git reset --soft HEAD~1: este comando desfaz o ultimo commit, resetando ele
+
+## Github
+
+- primeiro cria o repositório no github
+- segundo faz os passos do git: git init > git add . > git commit -m "mensagem"
+  -- os próximos passos tem após criar o repositório
+- git branch -M main: serve para mudar de master para o main
+- git remote add origin endereço_do_repositório: serve para chegar ao endereço remoto do repositório
+- git push -u origin main: serve para empurrar os arquivos para o hithub
+- após fazer esses passos, para subir o projeto pode apenas colocar git push, isso é claro, após os passos do git. add e commit
