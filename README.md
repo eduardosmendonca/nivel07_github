@@ -21,3 +21,15 @@
 - git log --oneline: uma forma mais enxuta de ver os logs
 
 - git log -n 3: para ver os ultimos 3 commits, o 3 é um exemplo, pode ser qualquer número
+
+- git status: serve para ver como está o status dos arquivos, se tem modificação ou se está tudo commitado
+
+- depois de alguma coisa alterada e quiser fazer um commit, refaz o processo: git add . > git commit -m "mensagem de alteração"
+
+- no git log tem um (HEAD -> master), isso quer dizer onde está sua aplicação, qual foi seu ultimo commit
+
+- git diff: mostra o que foi alterado em cada arquivo, isso da p comparar o que mudou
+
+- git restore projeto/index.html: esse comando restaura a modificação realizada no arquivo index.html dentro da pasta projeto, fazendo com que ela volte para a ultima versão sem alteração.
+
+- git restore .: restaura todos os arquivos
